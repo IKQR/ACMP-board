@@ -4,9 +4,6 @@ using System.Linq;
 
 namespace ACMP_board
 {
-
-
-
     class Program
     {
         static void Main(string[] args)
@@ -52,7 +49,7 @@ namespace ACMP_board
 
                 lastKey = currentKey == MyKeys.None ? lastKey : currentKey;
 
-                if(currentKey != MyKeys.None) 
+                if (currentKey != MyKeys.None)
                     UI.PrintButtons();
 
                 if (!makeReset)

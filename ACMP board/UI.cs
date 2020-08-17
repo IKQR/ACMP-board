@@ -31,13 +31,13 @@ namespace ACMP_board
                 Console.Write($"{"Название",40}|");
                 Console.Write($"{"Тема",40}|");
                 Console.Write($"{"Разбор",10}|");
-                if (withVideo) Console.Write($"{"Видео",10}|");
+                if (withVideo)
+                    Console.Write($"{"Видео",10}|");
                 Console.WriteLine($"{"Сложность",10}");
 
                 ToPrintTasks = ToPrintTasks.OrderBy(t => t.Complexity).ToList();
 
-                foreach (AcmpHelper.Task t in ToPrintTasks)
-                {
+                foreach (AcmpHelper.Task t in ToPrintTasks) {
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.Write($"{t.SId,7}|");
 
