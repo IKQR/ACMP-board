@@ -18,7 +18,7 @@ namespace ACMP_board
 
                 
                                                         public static Encoding encoding = Encoding.UTF8;
-
+         
         public static HtmlNode GetBoardNode(HtmlDocument doc)
         {
             HtmlNode node;
