@@ -122,6 +122,23 @@ namespace ACMP_board
                 {
                     node = table.ChildNodes.FindFirst("tr");
                     continue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 }
 
                 cur = node.ChildNodes.FindFirst("td");
