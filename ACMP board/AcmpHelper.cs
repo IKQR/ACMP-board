@@ -17,7 +17,7 @@ namespace ACMP_board
                              public static readonly string youtubeUrl = "https://www.youtube.com/results?search_query=";
 
                 
-                                                        public static Encoding encoding = Encoding.UTF8;
+         public static Encoding encoding = Encoding.UTF8;
          
         public static HtmlNode GetBoardNode(HtmlDocument doc)
         {
