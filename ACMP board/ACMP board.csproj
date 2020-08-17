@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="node Scripts\init.js&#xD;&#xA;dotnet-format" />
+    <Exec Command="node ..\Scripts\init.js" />
   </Target>
 
 </Project>
