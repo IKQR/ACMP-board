@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="node ..\Scripts\init.js" />
+    <Exec Command="if $(ConfigurationName) == Debug node ../Scripts/init.js" />
   </Target>
 
 </Project>
