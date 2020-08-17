@@ -15,9 +15,7 @@ namespace ACMP_board
             "https://docs.google.com/spreadsheets/d/1dpvkMqneA3e664Ogx_zY-xuTNIK8LyWrLYSD5Z3tTDY/export?format=csv&id=1dpvkMqneA3e664Ogx_zY-xuTNIK8LyWrLYSD5Z3tTDY&gid=0";
 
                              public static readonly string youtubeUrl = "https://www.youtube.com/results?search_query=";
-
-                
-                  public static Encoding encoding = Encoding.UTF8;
+                             public static Encoding encoding = Encoding.UTF8;
          
         public static HtmlNode GetBoardNode(HtmlDocument doc)
         {
