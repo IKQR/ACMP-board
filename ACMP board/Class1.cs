@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Net;
 using HtmlAgilityPack;
 using System.IO;
-using System.Net;
 
 namespace ACMP_board
 {
