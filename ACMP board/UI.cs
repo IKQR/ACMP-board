@@ -37,7 +37,8 @@ namespace ACMP_board
 
                 ToPrintTasks = ToPrintTasks.OrderBy(t => t.Complexity).ToList();
 
-                foreach (AcmpHelper.Task t in ToPrintTasks) {
+                foreach (AcmpHelper.Task t in ToPrintTasks)
+                {
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.Write($"{t.SId,7}|");
 

@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace ACMP_board
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             UI.PrintButtons();
 
