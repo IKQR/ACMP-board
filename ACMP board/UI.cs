@@ -57,7 +57,7 @@ namespace ACMP_board
                         Console.ForegroundColor = (t.HasVideo ? ConsoleColor.Green : ConsoleColor.Red);
                         Console.Write($"{(t.HasVideo ? "Да" : "Нет"),10}|");
                     }
-
+                    //TODO something
                     if (t.Complexity < 1)
                         Console.ForegroundColor = ConsoleColor.DarkBlue;
                     if (t.Complexity < 0.9)
